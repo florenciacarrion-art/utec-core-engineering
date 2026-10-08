@@ -10,4 +10,3 @@ print(f"Language: {language}")
 print(f"Version: {version}")
 print(f"Pi approx: {pi_approx:.2f}")
 print(f"Computation valid: {computation_valid}")
-

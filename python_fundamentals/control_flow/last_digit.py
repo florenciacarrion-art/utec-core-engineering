@@ -7,6 +7,6 @@ signed_digit = -digit if number < 0 else digit
 if signed_digit > 5:
    print (f"Last digit of {number} is {signed_digit} and is greater than 5")
 elif signed_digit == 0:
-   print (f"Last digit of {number} is {signed_digit} and is zero")
+   print (f"Last digit of {number} is {signed_digit} and is 0")
 else:
    print (f"Last digit of {number} is {signed_digit} and is less than 6 and not 0")

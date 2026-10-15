@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
 def uppercase(str):
+    result = ""
     for chat in str:
         if 97 <= ord(char) <= 122:
-            print(chr(ord(char) - 32),
-end="")
+            result += chr(ord(char) - 32)
         else:
-            print(char, end="")
-    print()
+            result += char
+    print(result)

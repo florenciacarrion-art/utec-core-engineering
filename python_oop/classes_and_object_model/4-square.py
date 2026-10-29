@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
-"""Define una clase Square con acceso controlado al tama√±o"""
+"""Define una clase Square con acceso controlado al tamani±o"""
 
 
 class Square:
     """Representa un cuadrado."""
 
     def __init__(self, size=0):
-        """Inicializa un cuadrado con un tama√±o determinado"""
+        """Inicializa un cuadrado con un tamani±o determinado"""
         self.size = size
 
     @property
     def size(self):
-        """Devuelve el tama√±o del cuadrado"""
+        """Devuelve el tamani±o del cuadrado"""
         return self.__size
 
     @size.setter
     def size(self, value):
-        """Valida y actualiza el tama√o del cuadrado"""
+        """Valida y actualiza el tamanio del cuadrado"""
         if type(value) is not int:
             raise TypeError("size must be an integer")
         if value < 0:

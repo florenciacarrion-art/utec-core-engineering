@@ -5,11 +5,11 @@
 class Square:
     """Representa un cuadrado."""
 
-    def __init__(sel, size=0):
+    def __init__(self, size=0):
         """Inicializa un cuadrado con un tamaño determinado"""
         self.size = size
 
-    @propety
+    @property
     def size(self):
         """Devuelve el tamaño del cuadrado"""
         return self.__size
@@ -25,4 +25,4 @@ class Square:
 
     def area(self):
         """Devuelve el area del cuadrado"""
-        self.__size * self.__size
+        return self.__size * self.__size

@@ -29,5 +29,8 @@ class Square:
 
     def my_print(self):
         """Imprime el cuadrado utilizando el caracter #"""
+        if self.__size == 0:
+            print()
+            return
         for row in range(self.__size):
             print("#" * self.__size)

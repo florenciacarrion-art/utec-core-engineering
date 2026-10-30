@@ -15,7 +15,7 @@ class Square:
         return self.__size
 
     @size.setter
-    def size(sel, value):
+    def size(self, value):
         """Valida y actualiza la dimension del cuadrado"""
         if type(value) is not int:
             raise TypeError("size must be an integer")

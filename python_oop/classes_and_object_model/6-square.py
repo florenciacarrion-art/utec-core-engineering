@@ -52,7 +52,7 @@ class Square:
         if self.__size == 0:
             return ""
 
-        space = " " *self.__position[0]
+        space = " " * self.__position[0]
         rows = [""] * self.__position[1]
 
         for row in range(self.__size):
